@@ -795,7 +795,7 @@ if __name__ == '__main__':
 
     overall_stats, class_stats = calculate_statistics(cv_results, class_accuracies_list)
 
-    print("\n=== Final Evaluation Metrics (Cross-validation Mean $\\pm$ Std [95% CI]) ===")
+    print("\n=== Final Evaluation Metrics (Cross-validation Mean ± Std [95% CI]) ===")
     print("Metric          | Mean    | Std      | 95% CI")
     print("---------------------------------------------------------")
     for metric, values in overall_stats.items():
@@ -809,4 +809,5 @@ if __name__ == '__main__':
     print("---------------------------------------------------------")
     for class_idx, values in class_stats.items():
         print(f"Class {class_idx:<6} | {values['mean']:.4f}  | {values['std']:.4f}  | "
+
               f"[{values['ci'][0]:.4f}, {values['ci'][1]:.4f}]")
