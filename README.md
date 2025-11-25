@@ -18,7 +18,7 @@ Yuxuan, P., Lantian, Y., JhihHua, J., Zhuo, W., & TzongYi, L. (2021). AVPIden: a
 
 ## 3 Requirements
 Please refer to the contents of the requirements_all.txt file
-<br>Mamba model download link: https://github.com/state-spaces/mamba.git,Please select the corresponding version based on your operating environment
+<br>Mamba model download link: https://github.com/state-spaces/mamba.git , Please select the corresponding version based on your operating environment
 <br>Other configurations can be directly used: pip install XXX
 
 ## 4 Usage Instructions
