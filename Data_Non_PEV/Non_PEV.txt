@@ -1,0 +1,8 @@
+0: FIV
+1: HIV
+2: HCV
+3: HPIV3
+4: HSV1
+5: INFVA
+6: RSV
+7: SARS-CoV
